@@ -1,0 +1,146 @@
+
+.carousel-caption{
+	height: 50%;
+
+}
+
+.d-block{
+  width: 100%;
+  max-height: 550px !important;
+}
+
+.rounded-circle{
+	width: 70%;
+  max-height: 250px !important;
+}
+
+/***** about clinic *******/
+.paddingTB60 {padding:60px 0px 60px 0px;}
+.gray-bg {background: #ffffff !important;
+text-align: center;}
+.about-title {}
+.about-title h1 {color: #535353; font-size:45px;font-weight:600;}
+.about-title span {color: #ed8b22; font-size:45px;font-weight:700;}
+.about-title h3 {color: #535353; font-size:23px;margin-bottom:24px;}
+.about-title p {color: #7a7a7a;line-height: 1.8;margin: 0 0 15px;}
+.about-paddingB {padding-bottom: 12px;}
+
+
+/***** about dr *******/
+
+.about-img {padding-left: 57px;}
+
+.doctor{
+	width: 100%;
+  max-height: 250px !important;
+}
+
+
+/***** Services *******/
+
+section{
+	padding: 0 0;
+}
+section .section-title{
+	text-align:center;
+	color:#ed8b22;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#services{
+	background:#ffffff;
+}
+#services .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#services .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#services .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#services .card .card-block a{
+	color: #007b5e !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#services .card .card-block a i{
+	display:none;
+	
+}
+#services .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#services .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color:  #ed8b22;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+
+#services .card-title{
+	text-align: left;
+}
+#services .card-text{
+	text-align: left;
+}
+
+#services .card .block-1:before{
+    content: "\f0f1";
+}
+#services .card .block-2:before{
+    content: "\f0fe";
+}
+#services .card .block-3:before{
+    content: "\f0c4";
+}
+
+#services .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+/*****Testimonials *******/
+
+.ourcustomer{
+	color: #ed8b22;
+}
+
+.complaint{
+	color: #ed8b22;
+}
+
+
+/***** map *******/
+
+.ourlocation{
+	color: #ed8b22;
+}
+
+/*****footer *******/
+.page-footer{
+background-color: #002352;
+width: 100%;
+
+}
+
+.footer-copyright{
+	background-color: #002347;
+
+}
